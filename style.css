@@ -1,0 +1,35 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.png");
+    background-size: 100% 100%;
+    /*background from wallpapercave.com*/
+}
+
+body{
+    cursor: url("cursor.png"), auto;
+}
+
+.lamp{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.lamp p{
+    margin: 20px;
+}
+.lamp p:hover{
+    background-color: yellow;
+}
+
+#button{
+    background: none;
+    color: white;
+}
+
+#button:hover{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+}
